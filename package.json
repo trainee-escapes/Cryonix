@@ -1,0 +1,22 @@
+{
+  "name": "cryonix",
+  "version": "0.2.5",
+  "private": true,
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "inspect": "node app/Cryonix.mjs"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "latest",
+    "@coinbase/onchainkit": "latest",
+    "@coinbase/cdp-sdk": "latest",
+    "@coinbase/agentkit": "latest",
+    "@base/node": "latest",
+    "base-web": "latest",
+    "viem": "latest",
+    "ethers": "latest",
+    "web3": "latest",
+    "axios": "latest"
+  }
+}
